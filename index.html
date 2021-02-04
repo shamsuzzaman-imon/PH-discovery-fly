@@ -66,11 +66,11 @@
 
             <div class="input-group f-class">
                 <div>
-                    <label for="">Economy ($100)</label>
+                    <label id="economy-price" for="">Economy ($100)</label>
                     <div class="d-flex">
-                        <button class="btn  btn-minus">-</button>
-                        <input type="number" value="0"  class="form-control w-150" id="inputPassword2">
-                        <button class="btn  btn-plus">+</button>
+                        <button id="economy-decrease" class="btn  btn-minus">-</button>
+                        <input id="input-count" type="number" value="0"  class="form-control w-150" id="inputPassword2">
+                        <button id="economy-increase" class="btn  btn-plus">+</button>
                     </div>
                 </div>
             </div>
@@ -89,7 +89,7 @@
                         <p>Charge 10% VAT</p>
                     </div>
                     <div class="right">
-                        <p>$50</p>
+                        <p>$ <span id="tax-total">00</span></p>
                     </div>
                 </div>
                 <hr>
